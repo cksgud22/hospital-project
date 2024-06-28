@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: 140px;
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #5de251;
+    border-bottom: 1px solid #87ee7e;
     /* position: fixed; */
 }
 
@@ -116,13 +116,15 @@ body {
     width: 100%;
     height: 540px;
     margin: 0 auto;
+    text-align: center;
+
 }
 
 /* contents영역 */
 
 .contents {
     width: 100%;
-    margin-top: 50px;
+    margin: 100px 0;
 }
 
 .inner {
@@ -140,7 +142,7 @@ body {
     /* background-color: #555; */
     display: inline-block;
     text-align: center;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
 
 }
 
@@ -156,19 +158,217 @@ body {
     background: url(/images/1x/아토피.png) no-repeat;
     background-size: 220px;
     line-height: 250px;
+    transition: all 0.2s;
 }
+
+.a1:hover {
+    background: url(/images/아토피_끝.png) no-repeat;
+    background-size: 220px;
+    line-height: 250px;
+}
+
+
 .a2 {
     background: url(/images/1x/이비인후과.png) no-repeat;
     background-size: 220px;
     line-height: 250px;
+    transition: all 0.2s;
 }
+
+.a2:hover {
+    background: url(/images/이비인후과_끝.png) no-repeat;
+    background-size: 220px;
+    line-height: 250px;
+}
+
+
 .a3 {
     background: url(/images/1x/소화.jpg) no-repeat;
     background-size: 220px;
     line-height: 250px;
+    transition: all 0.2s;
 }
+
+.a3:hover {
+    background: url(/images/소화끝.png) no-repeat;
+    background-size: 220px;
+    line-height: 250px;
+}
+
 .a4 {
     background: url(/images/1x/알레르기.jpg) no-repeat;
     background-size: 220px;
     line-height: 250px;
+    transition: all 0.2s;
 }
+
+.a4:hover {
+    background: url(/images/알레르기_끝.png) no-repeat;
+    background-size: 220px;
+    line-height: 250px;
+}
+
+.a5 {
+    background: url(/images/주사1.png) no-repeat;
+    background-size: 220px;
+    line-height: 250px;
+    transition: all 0.2s;
+    margin-left: 00px;
+}
+
+.a5:hover {
+    background: url(/images/주사2.png) no-repeat;
+    background-size: 220px;
+    line-height: 250px;
+}
+
+
+
+/*  call 영역  */
+.call {
+    width: 100%;
+    background-color: rgb(159, 230, 174);
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.c_inner {
+    width: 1168px;
+    /* border: 1px solid pink; */
+    margin: 50px auto;
+
+}
+
+.c_left {
+    width: 540px;
+    /* background-color: #rgb(24, 235, 24); */
+    padding: 30px;
+    float: left;
+
+}
+
+.c_logo {
+
+    margin-top: 10px;
+}
+
+.c_menu {
+    width: 400px;
+    margin: 40px auto;
+    border: 1px solid white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    box-shadow: #555 1px 1px 3px;
+}
+
+.c2 {
+    color: blue;
+}
+
+.c3 {
+    color: red;
+}
+
+.c_right {
+    width: 540px;
+    float: left;
+    padding: 30px;
+    position: relative;
+    background-color: #ffffff;
+    height: 300px;
+    box-shadow: black 1px 1px 3px;
+}
+
+.q_a {
+    margin: left 10px;
+    : 12px;
+    color: grey;
+}
+
+.num {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.fax {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.map {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    width: 150px;
+    height: 300px;
+    /* border: 1px solid black; */
+    top: 0;
+    right: 0;
+    background-image: url(/images/map1.png);
+}
+
+/* .mpa a{display: block;} */
+/* .map a:hover .c_menu{background-image: url(/images/JuAug28.jpg);} */
+
+/* notice  1168*450 */
+
+.notice {
+    width: 100%;
+    height: 309px;
+    text-align: center;
+    border: 1px solid WHITE WHITE  black WHITE;
+}
+
+.n_inner {
+    width: 1168px;
+    height: 409px;
+    /* background-color: #ececeb; */
+    margin: 0 auto;
+    /* box-shadow: black 0 1px 2px; */
+}
+
+.n_left {
+    display: flex;
+    width: 584px;
+    margin-top: 120px;
+    justify-content: space-between;
+    line-height: 150px;
+    
+    
+}
+
+.k1 {
+    width: 170px;
+    height: 170px;
+    background-color: #87ee7e;
+    border-radius: 20px;
+    font-weight: bold;
+    background-image: url(/images/k1.png);
+    
+}
+.k1:hover{background-image: url(/images/k6.png);}
+.k2 {
+    width: 170px;
+    height: 170px;
+    background-color: #41c035;
+    border-radius: 20px;
+    font-weight: bold;
+    background-image: url(/images/k2.png);
+    
+}
+.k2:hover{background-image: url(/images/k5.png);}
+.k3 {
+    width: 170px;
+    height: 170px;
+    background-color: #0d9b01;
+    border-radius: 25px;
+    font-weight: bold;
+    background-image: url(/images/k3.png);
+    
+}
+.k3:hover{background-image: url(/images/k4.png);}
+/* .k1 img{width: 80px; height: 80px;} */
