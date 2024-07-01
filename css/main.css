@@ -219,61 +219,61 @@ body {
 }
 
 .a1 {
-    background: url(/images/1x/아토피.png) no-repeat;
+    background: url('../images/1x/아토피.png') no-repeat;
     background-size: 220px;
     line-height: 250px;
     transition: all 0.2s;
 }
 
 .a1:hover {
-    background: url(/images/아토피_끝.png) no-repeat;
+    background: url('../images/아토피_끝.png') no-repeat;
     background-size: 220px;
     line-height: 250px;
 }
 
 
 .a2 {
-    background: url(/images/1x/이비인후과.png) no-repeat;
+    background: url('../images/1x/이비인후과.png') no-repeat;
     background-size: 220px;
     line-height: 250px;
     transition: all 0.2s;
 }
 
 .a2:hover {
-    background: url(/images/이비인후과_끝.png) no-repeat;
+    background: url('../images/이비인후과_끝.png') no-repeat;
     background-size: 220px;
     line-height: 250px;
 }
 
 
 .a3 {
-    background: url(/images/1x/소화.jpg) no-repeat;
+    background: url('../images/1x/소화.jpg') no-repeat;
     background-size: 220px;
     line-height: 250px;
     transition: all 0.2s;
 }
 
 .a3:hover {
-    background: url(/images/소화끝.png) no-repeat;
+    background: url('../images/소화끝.png') no-repeat;
     background-size: 220px;
     line-height: 250px;
 }
 
 .a4 {
-    background: url(/images/1x/알레르기.jpg) no-repeat;
+    background: url('../images/1x/알레르기.jpg') no-repeat;
     background-size: 220px;
     line-height: 250px;
     transition: all 0.2s;
 }
 
 .a4:hover {
-    background: url(/images/알레르기_끝.png) no-repeat;
+    background: url('../images/알레르기_끝.png') no-repeat;
     background-size: 220px;
     line-height: 250px;
 }
 
 .a5 {
-    background: url(/images/주사1.png) no-repeat;
+    background: url('../images/주사1.png') no-repeat;
     background-size: 220px;
     line-height: 250px;
     transition: all 0.2s;
@@ -281,7 +281,7 @@ body {
 }
 
 .a5:hover {
-    background: url(/images/주사2.png) no-repeat;
+    background: url('../images/주사2.png') no-repeat;
     background-size: 220px;
     line-height: 250px;
 }
@@ -372,7 +372,7 @@ body {
     /* border: 1px solid black; */
     top: 0;
     right: 0;
-    background-image: url(/images/map1.png);
+    background-image: url('../images/map1.png');
     cursor: pointer;
 }
 
@@ -413,13 +413,13 @@ body {
     background-color: #87ee7e;
     border-radius: 20px;
     font-weight: bold;
-    background-image: url(/images/k1.png);
+    background-image: url('../images/k1.png');
     cursor: pointer;
 
 }
 
 .k1:hover {
-    background-image: url(/images/k6.png);
+    background-image: url('../images/k6.png');
 }
 
 .k2 {
@@ -428,13 +428,13 @@ body {
     background-color: #41c035;
     border-radius: 20px;
     font-weight: bold;
-    background-image: url(/images/k2.png);
+    background-image: url('../images/k2.png');
     cursor: pointer;
 
 }
 
 .k2:hover {
-    background-image: url(/images/k5.png);
+    background-image: url('../images/k5.png');
 }
 
 .k3 {
@@ -443,13 +443,13 @@ body {
     background-color: #0d9b01;
     border-radius: 25px;
     font-weight: bold;
-    background-image: url(/images/k3.png);
+    background-image: url('../images/k3.png');
     cursor: pointer;
 
 }
 
 .k3:hover {
-    background-image: url(/images/k4.png);
+    background-image: url('../images/k4.png');
 }
 
 .n_right {
@@ -549,8 +549,7 @@ footer {
     right: 0;
 }
 
-.f_logo img {
+.f_logo img{
     width: 150px;
     height: 150px;
-
 }
